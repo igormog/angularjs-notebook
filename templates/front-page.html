@@ -1,0 +1,25 @@
+﻿<div class="container front-page">
+	<div class="page-header">
+		<div class="row">
+			<div class="col-md-3">
+				<h1 class="pull-left">New Posts</h1>
+			</div>
+			<div class="col-md-6"></div>
+			<div class="col-md-3">
+				<h4 class="pull-right">Hello <span>{{author}}</span>!</h4>
+			</div>
+		</div>
+	</div>
+	<div class="row content">
+		<div ng-repeat="event in post">
+			<div class="col-md-3">
+				<a href="#/post/{{event.id}}" class="content-link">
+					<div class="content-header">{{event.header}}</div>
+					<div class="content-author">{{event.author}}</div>
+					<a href="" ng-click="destroy(event.id)" class="fa fa-trash fa-2x"></a>
+					<a href="#/edit/{{event.id}}" class="fa fa-pencil-square-o fa-2x"></a>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
