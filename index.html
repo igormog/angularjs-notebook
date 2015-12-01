@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>My Blog</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="postApp" ng-controller="PostListCtrl">
+	<div class="wrap">
+		<div ng-include='"templates/header.html"'></div>
+		<div ng-view></div>
+	</div>
+	<div ng-include='"templates/footer.html"'></div>
+</body>
+</html>
+
+
+<!-- Angular.JS -->
+<script src="lib/angular.js"></script>
+<script src="lib/angular-route.js"></script>
+<script src="lib/angular-resource.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="lib/jquery.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<!-- My scripts -->
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/services.js"></script>
+<script src="js/directives.js"></script>
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="css/fortawesome/css/font-awesome.min.css">
