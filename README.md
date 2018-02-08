@@ -1,3 +1,3 @@
 # angularjs-notebook
 AngularJS simple notebook
-<h1><a href="http://igormog.github.io/angularjs-notebook/">See demo</a></h1>
+<h1><a href="http://igoshein.github.io/angularjs-notebook/">See demo</a></h1>
